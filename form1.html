@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Support</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(201, 192, 239);
+        }
+
+        form {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+            gap: 10px;
+            background-color: white;
+            padding: 2rem;
+        }
+
+        input,
+        select,
+        textarea {
+            padding: 0.8rem;
+            border-radius: 0rem;
+            border: 3px solid rgb(36, 1, 191);
+            color: rgb(36, 1, 191);
+        }
+
+        button {
+            width: 20%;
+            padding: 0.8rem;
+            border: 0px;
+            background-color: rgb(36, 1, 191);
+            color: white;
+            margin-top: -0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form-control">
+        <h1 style="color:blue; font-weight: 100;">Contact Support</h1>
+        <input class="text" type="text" name="first name" value="First Name" required>
+        <input class="email" type="email" name="email" value="Email" required>
+        <input class="text1" type="text" name="phone" value="Phone" required>
+        <select class="file">
+            <option value="Choose an Issue">Choose an Issue</option>
+        </select>
+        <textarea class="text2" type="text" name="comment">Let we know what think about that us</textarea>
+        <button class="text3" type="submit" name="submit" value="Submit">Submit </button>
+        <p style="color: rgb(0, 128, 64);">Thanks for submitting !</p>
+    </form>
+</body>
+
+</html>
